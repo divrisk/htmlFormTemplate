@@ -53,7 +53,7 @@ h1 {
 
 #project span {
   color: #5D6975;
-  text-align: left;
+  text-align: right;
   width: 52px;
   margin-right: 10px;
   display: inline-block;
@@ -61,8 +61,8 @@ h1 {
 }
 
 #company {
-  float: left;
-  text-align: left;
+  float: right;
+  text-align: right;
 }
 
 #project div,
