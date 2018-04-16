@@ -95,15 +95,15 @@
 	</tr>
 	<tr>
 		<td width="35%" valign="top">Company:</td>
-		<td>xxx</td>
+		<td>$NamedInsured_FullName$</td>
 	</tr>
 	<tr>
 		<td valign="top">City, State:</td>
-		<td>xxx</td>
+		<td>$NamedInsured_MailingAddress_LineOne$, $NamedInsured_MailingAddress_StateOrProvinceCode$</td>
 	</tr>
 	<tr>
 		<td nowrap="" valign="top">Postal Code:</td>
-		<td nowrap="">xxx</td>
+		<td nowrap="">$NamedInsured_MailingAddress_PostalCode$</td>
 	</tr>
 	<tr>
 		<td valign="top">FEIN:</td>
@@ -117,7 +117,7 @@
 	</tr>
 	<tr>
 		<td nowrap="" valign="top">Underwriter:</td>
-		<td nowrap="">xxx</td>
+		<td nowrap="">$Carrier_Underwriter$</td>
 	</tr>
 </tbody></table>
 </div>
@@ -132,18 +132,16 @@
 			<td align="center" nowrap="">Loc. #</td>
 			<td nowrap="">Address</td>
 			<td nowrap="">City</td>
-			<td nowrap="">County</td>
 			<td align="center" nowrap="">State</td>
 			<td align="center" nowrap="">Postal Code</td>
 		</tr>
 		
 			<tr>
 				<td align="center">1</td>
-				<td>1963 Oak Tree Road</td>
-				<td>EDISON</td>
-				<td>MIDDLESEX</td>
-				<td align="center">NJ</td>
-				<td align="center">08820</td>
+				<td>$CommercialStructure_PhysicalAddress_LineOne$</td>
+				<td>$CommercialStructure_PhysicalAddress_CityName$</td>
+				<td align="center">$CommercialStructure_PhysicalAddress_StateOrProvinceCode$</td>
+				<td align="center">$CommercialStructure_PhysicalAddress_PostalCode$</td>
 			</tr>
 			
 </tbody></table>
@@ -154,17 +152,17 @@
 <table class="table-plain">	
 	<tbody><tr>
 		<td width="150">Proposed Effective Date:</td>
-		<td>03/01/18</td>
+		<td>$Policy_EffectiveDate$</td>
 		<td width="150" class="red">Entity Type:</td>
-		<td>N/A</td>
+		<td>$NamedInsured_LegalEntity$</td>
 		<td width="150">Medical Expenses:</td>
-		<td>$5,000</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td valign="top">Policy Number:</td>
-		<td valign="top">N/A</td>
+		<td valign="top">$Policy_Number$</td>
 		<td valign="top">Terrorism Charge:</td>
-		<td valign="top">No</td>
+		<td valign="top">$Policy_Terrorism$</td>
 		<td valign="top">Property Deductible</td>
 		<td valign="top">$1,000</td>
 	</tr>
